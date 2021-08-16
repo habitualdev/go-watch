@@ -2,9 +2,9 @@
 
 Super simple directory watcher. Forwards all new/modified files to a set location over http/https
 
-  -e string
+-  -e string
     	Set the extension to watch (default ".*")
-  -p string
+-  -p string
     	Set path to watch (default ".")
-  -u string
+-  -u string
     	Set the extension to watch (default "http://127.0.0.1")
