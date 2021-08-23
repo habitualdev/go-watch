@@ -52,7 +52,7 @@ func main() {
 
 	flag.StringVar(&watchpath, "p", ".", "Set path to watch")
 	flag.StringVar(&extension, "e", ".*", "Set the extension to watch")
-	flag.StringVar(&url, "u", "http://127.0.0.1", "Set the extension to watch")
+	flag.StringVar(&url, "u", "http://127.0.0.1", "Set the url to post to")
 	flag.Parse()
 
 	// Create Watcher and apply watch filters
